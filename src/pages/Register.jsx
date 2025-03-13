@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Footer, Navbar } from "../components";
 import { Link, useNavigate } from 'react-router-dom';
 
-const BACKEND_URL = "http://127.0.0.1:5000"; 
+const BACKEND_URL = "https://project-commerce-backend-2.onrender.com"; 
 
 const Register = () => {
     const [name, setName] = useState("");
